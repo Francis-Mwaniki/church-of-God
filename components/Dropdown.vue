@@ -66,7 +66,8 @@ input:checked ~ .tab-content {
                 <ul class="pl-4">
                   <li class="pb-2">consectetur adipiscing elit</li>
                   <li class="pb-2">
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua
                   </li>
                   <li class="pb-2">
                     Viverra orci sagittis eu volutpat odio facilisis mauris
@@ -117,7 +118,8 @@ input:checked ~ .tab-content {
                 <ul class="pl-4">
                   <li class="pb-2">consectetur adipiscing elit</li>
                   <li class="pb-2">
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua
                   </li>
                   <li class="pb-2">
                     Viverra orci sagittis eu volutpat odio facilisis mauris
@@ -177,7 +179,8 @@ input:checked ~ .tab-content {
                 <ul class="pl-4">
                   <li class="pb-2">consectetur adipiscing elit</li>
                   <li class="pb-2">
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua
                   </li>
                   <li class="pb-2">
                     Viverra orci sagittis eu volutpat odio facilisis mauris
@@ -193,7 +196,7 @@ input:checked ~ .tab-content {
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style></style>

@@ -1,5 +1,5 @@
 <style>
-@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 </style>
 
 <template>
@@ -12,7 +12,9 @@
       Open modal
     </button>
     <!-- ./Modal trigger -->
-    <div class="flex items-center justify-center absolute h-screen top-0 left-0"></div>
+    <div
+      class="flex items-center justify-center absolute h-screen top-0 left-0"
+    ></div>
     <transition
       name="custom"
       enter-active-class="animate__animated animate__bounceInDown"
@@ -24,17 +26,19 @@
         class="w-11/12 lg:w-full max-w-xl z-20 mx-auto bg-white flex flex-col relative self-center shadow-2xl rounded-md"
       >
         <!-- Modal header -->
-        <div class="p-6 border-b-4 border-gray-200 text-lg font-bold text-indigo-400">
+        <div
+          class="p-6 border-b-4 border-gray-200 text-lg font-bold text-indigo-400"
+        >
           Modal title
         </div>
         <!-- ./Modal header -->
 
         <!-- Modal body -->
         <div class="p-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officiis
-          ipsam cupiditate illum laborum atque voluptatibus ut doloremque excepturi
-          quisquam repellendus dolor deserunt totam tempore, laboriosam earum sapiente
-          esse praesentium.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          officiis ipsam cupiditate illum laborum atque voluptatibus ut
+          doloremque excepturi quisquam repellendus dolor deserunt totam
+          tempore, laboriosam earum sapiente esse praesentium.
         </div>
         <!-- ./Modal body -->
 
@@ -73,7 +77,7 @@ export default {
   data() {
     return {
       showModal: false,
-    };
+    }
   },
-};
+}
 </script>

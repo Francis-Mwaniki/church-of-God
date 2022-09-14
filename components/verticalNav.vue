@@ -13,7 +13,9 @@
       <ul>
         <!-- Items Section -->
 
-        <li class="md:hover:bg-gray-900 rounded-full sm:bg-gray-700 sm:py-0 py-3">
+        <li
+          class="md:hover:bg-gray-900 rounded-full sm:bg-gray-700 sm:py-0 py-3"
+        >
           <div class="">
             <!-- Component starts here -->
             <a
@@ -51,7 +53,9 @@
           </div>
         </li>
 
-        <li class="md:hover:bg-gray-900 rounded-full sm:bg-gray-700 sm:py-0 py-3">
+        <li
+          class="md:hover:bg-gray-900 rounded-full sm:bg-gray-700 sm:py-0 py-3"
+        >
           <div class="">
             <!-- Component starts here -->
             <a
@@ -89,7 +93,9 @@
           </div>
         </li>
 
-        <li class="md:hover:bg-gray-900 rounded-full sm:bg-gray-700 sm:py-0 py-3">
+        <li
+          class="md:hover:bg-gray-900 rounded-full sm:bg-gray-700 sm:py-0 py-3"
+        >
           <div class="">
             <!-- Component starts here -->
             <a
@@ -127,7 +133,9 @@
           </div>
         </li>
 
-        <li class="md:hover:bg-gray-900 rounded-full sm:bg-gray-700 sm:py-0 py-3">
+        <li
+          class="md:hover:bg-gray-900 rounded-full sm:bg-gray-700 sm:py-0 py-3"
+        >
           <div class="">
             <!-- Component starts here -->
             <a
@@ -217,7 +225,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style></style>

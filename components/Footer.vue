@@ -7,8 +7,8 @@
       </div>
       <div class="flex mt-8 flex-col md:flex-row md:justify-between">
         <p class="w-full md:w-2/3 text-gray-200">
-          To ensure that all Wikipedia content is verifiable, anyone may question an
-          uncited claim. If your work has been tagged.
+          To ensure that all Wikipedia content is verifiable, anyone may
+          question an uncited claim. If your work has been tagged.
         </p>
         <div class="w-44 pt-6 md:pt-0">
           <a
@@ -43,15 +43,24 @@
           <div class="flex flex-row space-x-8 items-center justify-between">
             <a href="#">
               <!-- Facebook -->
-              <font-awesome-icon :icon="['fab', 'facebook']" class="text-white h-6 w-6" />
+              <font-awesome-icon
+                :icon="['fab', 'facebook']"
+                class="text-white h-6 w-6"
+              />
             </a>
             <a href="#">
               <!-- Github -->
-              <font-awesome-icon :icon="['fab', 'github']" class="text-white h-6 w-6" />
+              <font-awesome-icon
+                :icon="['fab', 'github']"
+                class="text-white h-6 w-6"
+              />
             </a>
             <a href="#">
               <!-- Twitter -->
-              <font-awesome-icon :icon="['fab', 'twitter']" class="text-white h-6 w-6" />
+              <font-awesome-icon
+                :icon="['fab', 'twitter']"
+                class="text-white h-6 w-6"
+              />
             </a>
             <a href="#">
               <!-- Twitter -->
@@ -72,7 +81,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style></style>

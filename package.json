@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi preview",
+    "generate": "nuxi generate",
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:prettier",
     "lintfix": "prettier --write --list-different ."
@@ -19,7 +19,7 @@
     "@nuxtjs/axios": "^5.13.6",
     "@pinia/nuxt": "^0.4.2",
     "core-js": "^3.19.3",
-    "nuxt": "^2.15.8",
+    "nuxt-edge": "^2.16.0-27718583.54e852f",
     "nuxt-fontawesome": "^0.4.0",
     "pinia": "^2.0.22",
     "vue": "^2.6.14",

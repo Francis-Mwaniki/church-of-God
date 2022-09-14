@@ -1,4 +1,5 @@
-export default {
+import { defineNuxtConfig } from '@nuxt/bridge'
+export default defineNuxtConfig({
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'church-Of-Elohim',
@@ -35,6 +36,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@pinia/nuxt',
+    '@nuxtjs/axios',
     [
       'nuxt-fontawesome',
       {
@@ -67,4 +69,4 @@ export default {
       },
     },
   },
-}
+})

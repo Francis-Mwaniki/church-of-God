@@ -22,8 +22,12 @@
                 class="relative flex items-center justify-between sm:h-10 lg:justify-start"
                 aria-label="Global"
               >
-                <div class="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
-                  <div class="flex w-full items-center justify-between md:w-auto">
+                <div
+                  class="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0"
+                >
+                  <div
+                    class="flex w-full items-center justify-between md:w-auto"
+                  >
                     <a href="#">
                       <span class="sr-only">Your Company</span>
                       <img
@@ -61,9 +65,13 @@
                   </div>
                 </div>
                 <div class="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
-                  <a href="#" class="font-medium text-gray-500 hover:text-gray-900"
+                  <a
+                    href="#"
+                    class="font-medium text-gray-500 hover:text-gray-900"
                     ><span
-                      ><font-awesome-icon :icon="['fas', 'house']" class="h-5 w-5"
+                      ><font-awesome-icon
+                        :icon="['fas', 'house']"
+                        class="h-5 w-5"
                     /></span>
                     Home</a
                   >
@@ -72,7 +80,9 @@
                     to="/Songs"
                     class="font-medium text-gray-500 hover:text-gray-900"
                     ><span
-                      ><font-awesome-icon :icon="['fas', 'headphones']" class="h-5 w-5"
+                      ><font-awesome-icon
+                        :icon="['fas', 'headphones']"
+                        class="h-5 w-5"
                     /></span>
                     Written songs</nuxt-link
                   >
@@ -155,7 +165,9 @@
                     href="#"
                     class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                     ><span
-                      ><font-awesome-icon :icon="['fas', 'house']" class="h-5 w-5"
+                      ><font-awesome-icon
+                        :icon="['fas', 'house']"
+                        class="h-5 w-5"
                     /></span>
                     Home</a
                   >
@@ -164,7 +176,9 @@
                     to="/Songs"
                     class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                     ><span
-                      ><font-awesome-icon :icon="['fas', 'headphones']" class="h-5 w-5"
+                      ><font-awesome-icon
+                        :icon="['fas', 'headphones']"
+                        class="h-5 w-5"
                     /></span>
                     Written Songs</nuxt-link
                   >
@@ -208,10 +222,12 @@
               <p
                 class="mt-3 text-base text-gray-500 sm:mx-auto font-mono sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
               >
-                Messianic Artists Is an inspiring movement of musician to spread the
-                gospel world.The third angel Message Rev (14:6-7)
+                Messianic Artists Is an inspiring movement of musician to spread
+                the gospel world.The third angel Message Rev (14:6-7)
               </p>
-              <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              <div
+                class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
+              >
                 <div class="rounded-md shadow">
                   <nuxt-link
                     to="/signUp"
@@ -244,14 +260,14 @@
 </template>
 
 <script>
-import Dropdown from "./Dropdown.vue";
+import Dropdown from './Dropdown.vue'
 export default {
   components: { Dropdown },
   data() {
-    return {};
+    return {}
   },
   methods: {},
-};
+}
 </script>
 
 <style></style>

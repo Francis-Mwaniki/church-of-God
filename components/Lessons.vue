@@ -14,7 +14,9 @@
                   </h1>
                 </div>
               </div>
-              <div class="lg:w-2/5 flex mt-10 ml-2 lg:ml-0 lg:mt-0 lg:justify-end">
+              <div
+                class="lg:w-2/5 flex mt-10 ml-2 lg:ml-0 lg:mt-0 lg:justify-end"
+              >
                 <div class="pt-2 relative text-gray-600">
                   <input
                     class="focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
@@ -49,7 +51,9 @@
                       src="https://i.ibb.co/27R6nk5/home-1.png"
                       alt="home-1"
                   /></span>
-                  <h1 class="pb-4 text-2xl font-semibold">Ntambuimbia Yahshua</h1>
+                  <h1 class="pb-4 text-2xl font-semibold">
+                    Ntambuimbia Yahshua
+                  </h1>
                   <div class="my-5">
                     <div
                       class="flex items-center pb-4 dark:border-gray-700 cursor-pointer w-full space-x-3"
@@ -142,7 +146,8 @@
                         </svg>
                       </div>
                       <h4 class="text-md text-gray-900 dark:text-gray-100 pl-4">
-                        What is the refund policy if I have to cancel during the month
+                        What is the refund policy if I have to cancel during the
+                        month
                       </h4>
                     </div>
                   </div>
@@ -182,7 +187,9 @@
                       src="https://i.ibb.co/bdGyLYk/pricetags-1.png"
                       alt="pricetags-1"
                   /></span>
-                  <h1 class="pb-4 text-2xl font-semibold">Subscription Plans</h1>
+                  <h1 class="pb-4 text-2xl font-semibold">
+                    Subscription Plans
+                  </h1>
                   <div class="my-5">
                     <div
                       class="flex items-center pb-4 dark:border-gray-700 cursor-pointer w-full"
@@ -277,7 +284,8 @@
                         </svg>
                       </div>
                       <h4 class="text-md text-gray-900 dark:text-gray-100 pl-4">
-                        What is the refund policy if I have to cancel during the month
+                        What is the refund policy if I have to cancel during the
+                        month
                       </h4>
                     </div>
                     <div
@@ -436,7 +444,8 @@
                         </svg>
                       </div>
                       <h4 class="text-md text-gray-900 dark:text-gray-100 pl-4">
-                        What is the refund policy if I have to cancel during the month
+                        What is the refund policy if I have to cancel during the
+                        month
                       </h4>
                     </div>
                   </div>
@@ -476,7 +485,9 @@
                       src="https://i.ibb.co/rG4r6NJ/notifications-1.png"
                       alt="home-1"
                   /></span>
-                  <h1 class="pb-4 text-2xl font-semibold">Notification Settings</h1>
+                  <h1 class="pb-4 text-2xl font-semibold">
+                    Notification Settings
+                  </h1>
                   <div class="my-5">
                     <div
                       class="flex items-center pb-4 dark:border-gray-700 cursor-pointer w-full"
@@ -571,7 +582,8 @@
                         </svg>
                       </div>
                       <h4 class="text-md text-gray-900 dark:text-gray-100 pl-4">
-                        What is the refund policy if I have to cancel during the month
+                        What is the refund policy if I have to cancel during the
+                        month
                       </h4>
                     </div>
                   </div>
@@ -603,7 +615,9 @@
                 </div>
               </div>
               <div role="cell" class="bg-gray-100">
-                <div class="relative bg-white p-5 rounded-md relative h-full w-full">
+                <div
+                  class="relative bg-white p-5 rounded-md relative h-full w-full"
+                >
                   <!-- class="absolute inset-0 object-center object-cover h-full w-full"  -->
                   <span
                     ><img
@@ -611,7 +625,9 @@
                       src="https://i.ibb.co/HFC1hqn/people-1.png"
                       alt="home-1"
                   /></span>
-                  <h1 class="pb-4 text-2xl font-semibold">Profile Preferences</h1>
+                  <h1 class="pb-4 text-2xl font-semibold">
+                    Profile Preferences
+                  </h1>
                   <div class="my-5">
                     <div
                       class="flex items-center pb-4 dark:border-gray-700 cursor-pointer w-full"
@@ -714,7 +730,9 @@
                 </div>
               </div>
               <div role="cell" class="bg-gray-100">
-                <div class="relative bg-white p-5 rounded-md relative h-full w-full">
+                <div
+                  class="relative bg-white p-5 rounded-md relative h-full w-full"
+                >
                   <!-- class="absolute inset-0 object-center object-cover h-full w-full"  -->
                   <span
                     ><img
@@ -722,7 +740,9 @@
                       src="https://i.ibb.co/QX80fYm/lock-closed-1.png"
                       alt="home-1"
                   /></span>
-                  <h1 class="pb-4 text-2xl font-semibold">Privacy and Cookies</h1>
+                  <h1 class="pb-4 text-2xl font-semibold">
+                    Privacy and Cookies
+                  </h1>
                   <div class="my-5">
                     <div
                       class="flex items-center pb-4 dark:border-gray-700 cursor-pointer w-full"
@@ -817,7 +837,8 @@
                         </svg>
                       </div>
                       <h4 class="text-md text-gray-900 dark:text-gray-100 pl-4">
-                        What is the refund policy if I have to cancel during the month
+                        What is the refund policy if I have to cancel during the
+                        month
                       </h4>
                     </div>
                   </div>

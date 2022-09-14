@@ -8,8 +8,8 @@
           NYIMBO ZA KUMSIFU ELOHIM MUUMBA WA MBINGU NA NCHI
         </h3>
         <p class="text-sm font-light text-gray-600 my-3">
-          All Messianic Song Are accorded below.Read.Sing.Praise And Spread The Gospel of
-          Rev(14:6-7)
+          All Messianic Song Are accorded below.Read.Sing.Praise And Spread The
+          Gospel of Rev(14:6-7)
         </p>
 
         <div class="h-1 w-full mx-auto border-b my-5"></div>
@@ -43,7 +43,7 @@
   </div>
 </template>
 <style>
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
 
 .accordion-content {
   transition: max-height 0.3s ease-out, padding 0.3s ease;
@@ -51,35 +51,38 @@
 </style>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue'
 export default {
   mounted() {
-    const accordionHeader = document.querySelectorAll(".accordion-header");
+    const accordionHeader = document.querySelectorAll('.accordion-header')
     accordionHeader.forEach((header) => {
-      header.addEventListener("click", function () {
-        const accordionContent = header.parentElement.querySelector(".accordion-content");
-        let accordionMaxHeight = accordionContent.style.maxHeight;
+      header.addEventListener('click', function () {
+        const accordionContent =
+          header.parentElement.querySelector('.accordion-content')
+        let accordionMaxHeight = accordionContent.style.maxHeight
 
         // Condition handling
-        if (accordionMaxHeight == "0px" || accordionMaxHeight.length == 0) {
-          accordionContent.style.maxHeight = `${accordionContent.scrollHeight + 32}px`;
-          header.querySelector(".fas").classList.remove("fa-plus");
-          header.querySelector(".fas").classList.add("fa-minus");
-          header.parentElement.classList.add("bg-indigo-50");
+        if (accordionMaxHeight == '0px' || accordionMaxHeight.length == 0) {
+          accordionContent.style.maxHeight = `${
+            accordionContent.scrollHeight + 32
+          }px`
+          header.querySelector('.fas').classList.remove('fa-plus')
+          header.querySelector('.fas').classList.add('fa-minus')
+          header.parentElement.classList.add('bg-indigo-50')
         } else {
-          accordionContent.style.maxHeight = `0px`;
-          header.querySelector(".fas").classList.add("fa-plus");
-          header.querySelector(".fas").classList.remove("fa-minus");
-          header.parentElement.classList.remove("bg-indigo-50");
+          accordionContent.style.maxHeight = `0px`
+          header.querySelector('.fas').classList.add('fa-plus')
+          header.querySelector('.fas').classList.remove('fa-minus')
+          header.parentElement.classList.remove('bg-indigo-50')
         }
-      });
-    });
+      })
+    })
   },
   setup() {
     let songs = ref([
       {
         id: 1,
-        title: "1.BINTI WA ZAYUNI",
+        title: '1.BINTI WA ZAYUNI',
         desc: `1. Binti wa Zayuni kweli amevaa utukufu, amevaa jua
                     na nyota katika mwili wake, naye binti wa Babeli
                     amevaa kiulimwengu na majina ya matusi kwake
@@ -97,7 +100,7 @@ export default {
       },
       {
         id: 2,
-        title: "5. NAINUA MACHO YANGU",
+        title: '5. NAINUA MACHO YANGU',
         desc: `1. Nainua macho yangu niutazame ule mlima, msaanda
                 wangu watoka kwako uliyeumba mbingu na nchi.
                 Ni furaha ya moyo wangu kuishi na wewe Mwokozi
@@ -113,7 +116,7 @@ export default {
       },
       {
         id: 3,
-        title: "1.4. MSIFATHAIKE",
+        title: '1.4. MSIFATHAIKE',
         desc: `Msifathaike mioyoni mwenu makao ni mengi mwa
                         Baba yangu naenda kutayarisha mahali tutakapoishi
                         pamoja nanyi, sasa makao ameshayaandaa ishara
@@ -138,7 +141,7 @@ export default {
       },
       {
         id: 4,
-        title: "KUJA KWA YASHUAH",
+        title: 'KUJA KWA YASHUAH',
         desc: `1. Kuja kwa Yashuah kumekaribia sana, tarubeta ya
                 Yashuah itasikika, wafu katika Yashuah
                 watafufuliwa tutamlaki Yashuah mawinguni.
@@ -157,7 +160,7 @@ export default {
       },
       {
         id: 5,
-        title: "1.12.ITAKUWA SIKU YA AJABU",
+        title: '1.12.ITAKUWA SIKU YA AJABU',
         desc: `1. Itakuwa siku ya ajabu, Yashuah akirudi na ufalme
                     wake kuwachukua waliomwamini awapeleke zayuni
                     Halleluyah siku hiyo ya Bwan awalio watakatifu
@@ -171,7 +174,7 @@ export default {
       },
       {
         id: 6,
-        title: "2.PALIKUWEPO NIKODEMU",
+        title: '2.PALIKUWEPO NIKODEMU',
         desc: ` 1. Kama wewe umepata neno litokalo Yerusalem
                 hubiria jirani yako ashikane na Wayahudi.
                 Soma, Bibilia iliandikwa kwa pumzi ya Elohim, yafaa
@@ -190,7 +193,7 @@ export default {
       },
       {
         id: 6,
-        title: "2.PALIKUWEPO NIKODEMU",
+        title: '2.PALIKUWEPO NIKODEMU',
         desc: ` 1. Kama wewe umepata neno litokalo Yerusalem
                 hubiria jirani yako ashikane na Wayahudi.
                 Soma, Bibilia iliandikwa kwa pumzi ya Elohim, yafaa
@@ -207,8 +210,8 @@ export default {
                 roho itendayo dhambi kwa hakika ndiyo itakayo
                 kufa.`,
       },
-    ]);
-    return { songs };
+    ])
+    return { songs }
   },
-};
+}
 </script>
