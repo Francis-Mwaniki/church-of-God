@@ -1,7 +1,13 @@
 <style></style>
 <!-- Card List Section -->
 <template>
-  <section class="bg-gray-100 dark:bg-gray-900 py-10 px-12">
+  <section class="bg-gray-900 py-7 px-12">
+    <VerticalNav />
+    <h1
+      class="md:text-3xl text-xl font-mono text-white flex justify-center items-center mx-auto uppercase p-1"
+    >
+      Messianic Gospel Artists.
+    </h1>
     <div
       class="flex justify-center items-center mx-auto sm:max-w-6xl max-w-3xl flex-col my-2"
     >
@@ -11,7 +17,7 @@
         alt=""
       />
       <!-- Title -->
-      <p class="text-lg mb-4 font-bold leading-relaxed text-gray-800 dark:text-gray-300">
+      <p class="text-lg mb-4 font-bold leading-relaxed text-gray-300">
         <!-- Post Title -->
         Wainaina Mumessiah
       </p>
@@ -28,7 +34,7 @@
         <span
           ><font-awesome-icon :icon="['fab', 'youtube']" class="h-7 w-7 text-red-600 p-1"
         /></span>
-        <span> Youtube channel</span>
+        <span class="text-white"> Youtube channel</span>
       </a>
     </div>
     <!-- Card Grid -->
@@ -38,7 +44,7 @@
       <section v-for="(post, index) in posts">
         <!-- Card Item -->
         <div
-          class="my-8 rounded shadow-lg shadow-gray-200 dark:shadow-gray-900 bg-white dark:bg-gray-800 duration-300 hover:-translate-y-1"
+          class="my-8 rounded shadow-lg shadow-white bg-gray-800 duration-300 hover:-translate-y-1 min-h-screen"
         >
           <!-- Clickable Area -->
           <a href="#" class="cursor-pointer">
@@ -72,10 +78,10 @@
 </template>
 
 <script>
+import VerticalNav from "../components/verticalNav.vue";
 export default {
   setup() {
     const { ref } = require("vue");
-
     const posts = ref([
       {
         image: "https://i3.ytimg.com/vi/McyJfewuSVA/hqdefault.jpg",
@@ -114,8 +120,8 @@ export default {
           "Caffé latte and flat white are definitely the most ordered espresso based drinks in cafés around the world but what are they really? Have you ever wondered the difference between caffé latte vs. flat white? Let's see what makes caffé latte and flat white different from each other!",
       },
     ]);
-
     return { posts };
   },
+  components: { VerticalNav },
 };
 </script>

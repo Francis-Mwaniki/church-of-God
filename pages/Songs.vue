@@ -1,13 +1,17 @@
 <template>
-  <!--   <Modal /> -->
-  <SkeletonLoader />
+  <main>
+    <!--   <Modal /> -->
+    <VerticalNav />
+    <WrittenSongs />
+  </main>
 </template>
 
 <script>
-import SkeletonLoader from "../components/SkeletonLoader.vue";
+import WrittenSongs from "../components/WrittenSongs.vue";
+import VerticalNav from "../components/verticalNav.vue";
 /* import Modal from "../components/modal.vue"; */
 export default {
-  components: { SkeletonLoader },
+  components: { WrittenSongs, VerticalNav },
 };
 </script>
 

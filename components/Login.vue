@@ -23,9 +23,7 @@
   <body class="h-full">
   ```
 -->
-  <div
-    class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8"
-  >
+  <div class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
     <div class="w-full max-w-md space-y-8">
       <div>
         <img
@@ -33,9 +31,7 @@
           src="../assets/images/catoon.png"
           alt="Your Company"
         />
-        <h2
-          class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900"
-        >
+        <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
           Login in to your account
         </h2>
         <p class="mt-2 text-center text-sm text-gray-600">
@@ -88,9 +84,7 @@
           </div>
 
           <div class="text-sm">
-            <a
-              href="#"
-              class="font-medium text-indigo-600 hover:text-indigo-500"
+            <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500"
               >Forgot your password?</a
             >
           </div>
@@ -117,7 +111,28 @@
                 />
               </svg>
             </span>
-            Login
+            <div class="">
+              <!-- Component starts here -->
+              <a
+                class="group max-w-max relative mx-1 flex flex-col items-center justify-center p-1 text-white"
+                href="#"
+              >
+                <!-- Text/Icon goes here -->
+                <p class="text-xs text-center">Login</p>
+                <!-- Tooltip here -->
+                <div
+                  class="[transform:perspective(50px)_translateZ(0)_rotateX(10deg)] group-hover:[transform:perspective(0px)_translateZ(0)_rotateX(0deg)] absolute bottom-0 mb-6 origin-bottom transform rounded text-white opacity-0 transition-all duration-300 group-hover:opacity-100"
+                >
+                  <div class="flex max-w-xs flex-col items-center">
+                    <div class="rounded bg-gray-900 p-2 text-xs text-center shadow-lg">
+                      Login
+                    </div>
+                    <div class="clip-bottom h-2 w-4 bg-gray-900"></div>
+                  </div>
+                </div>
+              </a>
+              <!-- Component ends here -->
+            </div>
           </button>
         </div>
         <div>
@@ -142,7 +157,29 @@
                   />
                 </svg>
               </span>
-              Sign in
+
+              <div class="">
+                <!-- Component starts here -->
+                <a
+                  class="group max-w-max relative mx-1 flex flex-col items-center justify-center p-1 text-white"
+                  href="#"
+                >
+                  <!-- Text/Icon goes here -->
+                  <p class="text-xs text-center">Sign in</p>
+                  <!-- Tooltip here -->
+                  <div
+                    class="[transform:perspective(50px)_translateZ(0)_rotateX(10deg)] group-hover:[transform:perspective(0px)_translateZ(0)_rotateX(0deg)] absolute bottom-0 mb-6 origin-bottom transform rounded text-white opacity-0 transition-all duration-300 group-hover:opacity-100"
+                  >
+                    <div class="flex max-w-xs flex-col items-center">
+                      <div class="rounded bg-gray-900 p-2 text-xs text-center shadow-lg">
+                        Sign in
+                      </div>
+                      <div class="clip-bottom h-2 w-4 bg-gray-900"></div>
+                    </div>
+                  </div>
+                </a>
+                <!-- Component ends here -->
+              </div>
             </button>
           </nuxt-link>
         </div>
@@ -152,7 +189,10 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
-
-<style></style>
+<style>
+.clip-bottom {
+  clip-path: polygon(100% 50%, 0 0, 100% 0, 50% 100%, 0 0);
+}
+</style>

@@ -169,9 +169,11 @@
                     Written Songs</nuxt-link
                   >
 
-                  <nuxt-link to="/videos">
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-700
-                    hover:bg-gray-50 hover:text-gray-900" ><span
+                  <nuxt-link
+                    to="/videos"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                  >
+                    <span
                       ><font-awesome-icon :icon="['fas', 'tv']" class="h-5 w-5"
                     /></span>
                     Videos</nuxt-link
@@ -214,7 +216,7 @@
                   <nuxt-link
                     to="/signUp"
                     class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
-                    >Get started
+                    ><button>Get started</button>
                   </nuxt-link>
                 </div>
                 <div class="mt-3 sm:mt-0 sm:ml-3">
@@ -237,13 +239,19 @@
         />
       </div>
     </div>
-    <Footer />
+    <Dropdown />
   </main>
 </template>
 
 <script>
-import Footer from "./Footer.vue";
-export default { components: { Footer } };
+import Dropdown from "./Dropdown.vue";
+export default {
+  components: { Dropdown },
+  data() {
+    return {};
+  },
+  methods: {},
+};
 </script>
 
 <style></style>
